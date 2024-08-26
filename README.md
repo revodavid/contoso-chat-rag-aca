@@ -132,9 +132,9 @@ Once you complete setup, use these commands to validate the install:
  1. Once ready, the tab will refresh to show a Visual Studio Code editor in the browser.
  1. Open the terminal in VS Code and validate install with these commands:
     - `azd version` - Azure Developer CLI is installed (v1.8.2+)
-    - `pf version` - Promptflow is installed (v1.10.0+)
     - `az version` - Azure CLI is installed (v2.60+)
     - `python3 --version` - Python3 is installed (v3.11+)
+    - `pf --version` - Promptflow is installed (v1.10.0+)
  1. Sign into your Azure account from the VS Code terminal
     ```bash
     azd auth login --use-device-code
